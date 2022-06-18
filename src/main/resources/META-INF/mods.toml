@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="jertweaker"
+version="${file.jarVersion}"
+displayName="JER Tweaker"
+authors="Khepri"
+description='''
+Adds JER integration for CraftTweaker
+'''
+[[dependencies.jertweaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jertweaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jertweaker]]
+    modId="crafttweaker"
+    mandatory=true
+    versionRange="[9.1.86,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.jertweaker]]
+    modId="jeresources"
+    mandatory=true
+    versionRange="[0.14.1,)"
+    ordering="AFTER"
+    side="BOTH"
